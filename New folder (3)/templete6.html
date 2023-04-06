@@ -1,0 +1,424 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        nav {
+            width: 100%;
+            height: 8%;
+            background-color: blue;
+
+        }
+
+        ul li {
+            display: inline-block;
+        }
+
+        a {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            padding: 28%;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            color: blue;
+        }
+
+        .main {
+            width: 100%;
+            background-color: blue;
+            height: 8%;
+
+        }
+
+        .main li {
+            display: inline-block;
+            padding-right: 5%;
+            padding-top: 1.5%;
+            font-weight: bold;
+        }
+
+        .bs {
+            margin-left: 12%;
+
+        }
+
+        .bg {
+            background-image: url('./cleaning.jpg');
+            width: 100%;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            opacity: 0.75;
+            height: 25vh;
+            overflow: hidden;
+            background-position: right;
+        }
+
+        .logo img {
+            width: 120px;
+            opacity: 1;
+            padding-top: 4%;
+        }
+
+        .search-container button {
+            float: right;
+            padding: 8px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: blue;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .see input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+
+        ::placeholder {
+            color: blue;
+            font-weight: bold;
+            font-style: italic;
+            padding-left: 6%;
+        }
+
+        .machine img {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 100%;
+            height: 85vh;
+        }
+        .os img{
+            width: 100%;
+        }
+        .hs img{
+            width:100%;
+        }
+        .medical{
+            background-image: url('./New folder (3)/medical.jpg');
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            
+            overflow: hidden;
+        }
+        #tle{
+            margin-left: 8%;
+        }
+        .machinecompany{
+            background-image: url('./New folder (3)/cleaningmachine.jpg');
+            width: 100%;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            opacity: 0.80;
+            overflow: hidden;
+            background-position: right;
+        }
+        #icons{
+            width: 20px;
+            height: 20px;
+            background-color: blue;
+            padding: 10%;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        #card{
+            width: 250px;
+            padding-bottom: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div style="width: 80%; margin: auto; padding-top: 1%;">
+            <div style="width: 50%;  display: inline-block;">
+                <ul style="list-style: none;">
+                    <li style="color: white;padding-right: 6%;"> <i class="fa-sharp fa-solid fa-envelope"></i>
+                        vashinhits@gmail.com</li>
+                    <li style="color: white;"> <i class="fa-solid fa-phone-volume"></i> +353(0)1 4601277</li>
+                </ul>
+            </div>
+            <div style="width: 50%;  float: right; text-align: end;">
+                <ul>
+                    <li style="padding-right: 2%;"><a style="text-decoration: none;" href=""><i
+                                class="fa-solid fa-thumbs-up"></i></a></li>
+                    <li style="padding-right: 2%;"><a style="text-decoration: none;" href=""><i
+                                class="fa-brands fa-twitter"></i></a></li>
+                    <li style="padding-right: 2%;"><a style="text-decoration: none; padding: 40%;" href=""><i
+                                class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li style="padding-right: 2%;"><a style="text-decoration: none;" href=""><i
+                                class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bg">
+        <div style="width: 80%;margin: auto;">
+            <div class="logo" style="width: 50%; display: inline-block ;">
+                <img src="New folder (3)/logo1.png" alt="">
+            </div>
+            <div class="see" style="width: 50%; float: right; text-align: end;">
+                <form class="search-container" style="padding-top: 9%;">
+                    <input type="text" placeholder="Search" name="search">
+                    <button type="submit"><i style="color: white;" class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <ul style="list-style: none; color: white;" class="bs">
+            <li>PRODUCTS</li>
+            <li>INDUSTRY SECTORS</li>
+            <li>SPARE PARTS</li>
+            <li>CLEANING SUPPLIES</li>
+            <li>FAQS</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+        </ul>
+    </div>
+    <div class="machine" style="width: 100%;">
+        <img src="New folder (3)/machine.jpg" alt="">
+    </div>
+    <div style="width: 100%; display: flex;" class="os">
+        <div style="width: 25%;"> <img src="New folder (3)/work1.jpg" alt=""> </div>
+        <div style="width: 25%;"> <img src="New folder (3)/work3.jpg" alt=""> </div>
+        <div style="width: 25%;"> <img src="New folder (3)/work4.jpg" alt=""> </div>
+        <div  style="width: 25%;"> <img src="New folder (3)/work2.jpg" alt=""> </div>
+    </div>
+    <div style="width: 100%; display: flex;" >
+        <div style="width: 25%; background-color: lightgray; height: 215px;"> 
+            <h2 style="color: blue; text-align: center; padding-top: 7%;">HIRE</h2>
+            <P style="font-size: 14px;text-align: center; padding-top: 8px;"> Develop and maintain both intranet <br>
+                internet WordPress websites <br>
+                WordPress websites based on Photoshop mockups <br>
+                Marketing and the Creative team <br>
+                internet WordPress websites
+            </P>
+         </div>
+         <div style="width: 25%; background-color:white; "> 
+            <h2 style="color: blue;text-align: center; padding-top: 7%;">SALES</h2>
+            <P style="font-size: 14px;text-align: center; padding-top: 8px;"> Develop and maintain both intranet <br>
+                internet WordPress websites <br>
+                WordPress websites based on Photoshop mockups <br>
+                Marketing and the Creative team <br>
+                internet WordPress websites <br>
+                Marketing and the Creative team
+            </P>
+         </div>
+         <div style="width: 25%; background-color: lightgray;"> 
+            <h2 style="color: blue;text-align: center;padding-top: 7%;">SERVICES</h2>
+            <P style="font-size: 14px;text-align: center; padding-top: 8px;"> Develop and maintain both intranet <br>
+                internet WordPress websites <br>
+                WordPress websites based on Photoshop mockups <br>
+                Marketing and the Creative team <br>
+                internet WordPress websites
+            </P>
+         </div>
+         <div style="width: 25%; background-color: white;"> 
+            <h2 style="color: blue; text-align: center; padding-top: 7%;">SPARE PARTS</h2>
+            <P style="font-size: 14px; text-align: center; padding-top: 8px;"> Develop and maintain both intranet <br>
+                internet WordPress websites <br>
+                WordPress websites based on Photoshop mockups <br>
+                Marketing and the Creative team <br>
+                internet WordPress websites <br>
+                WordPress websites based on Photoshop 
+            </P>
+         </div>
+       </div> <br> <br> 
+       <div style="width: 80%; margin: auto; ">
+        <div style="background-color: blue; height: 7%;">
+            <h3 style="color: white; text-align: center; padding-top:1%;">BEST SELLERS</h3>
+        </div>
+       </div> <br>
+       <div style="width: 80%; margin: auto; display: flex;" class="hs">
+        <div style="width: 20%; padding-right: 6%;" >
+            <img src="New folder (3)/clean1.jpg" alt="">
+            <h4 style="color: blue; text-align: center;">GENIE E</h4>
+        </div>
+        <div style="width: 20%;padding-right: 6%; ">
+            <img src="New folder (3)/clean2.jpg" alt="">
+            <h4 style="color: blue; text-align: center;">MAGNA</h4>
+        </div>
+        <div style="width: 20%; padding-right: 6%;">
+            <img src="New folder (3)/clean3.jpg" alt="">
+            <h4 style="color: blue; text-align: center;">ORBIS ECO 400</h4>
+        </div>
+        <div style="width: 20%; padding-right: 0%;">
+            <img src="New folder (3)/clean4.jpg" alt="">
+            <h4 style="color: blue; text-align: center;">MULTIWASH MW340</h4>
+        </div>
+       </div> 
+       
+       <div style="width: 80%; margin: auto; display: flex;" class="hs">
+        <div style="width: 20%; padding-right: 6%;">
+            <img src="New folder (3)/clean5.jpg" alt="">
+            <h4 style="color: blue; text-align: center;">FV9 BACK VAC 220 VAC</h4>
+        </div>
+        <div style="width: 20%; padding-right: 6%;">
+            <img src="New folder (3)/clean6.jpg" alt="">
+            <h4 style="color: blue; text-align: center;">STEAM AND VAC PRO</h4>
+        </div>
+        <div style="width: 20%; padding-right: 6%;">
+            <img src="New folder (3)/clean7.jpg" alt="">
+            <h4 style="color: blue; text-align: center;">LSU 375 WET VAC</h4>
+        </div>
+        <div style="width: 20%; padding-right: 0%;">
+            <img src="New folder (3)/clean8.jpg" alt="">
+            <h4 style="color: blue; text-align: center;">POLARIS 800</h4>
+        </div>
+       </div> <br> <br> <br>
+       <div style="width: 100%;background-color: lightgrey; padding-bottom: 4%;">
+        <div style="width:80%; margin: auto; padding-top:3%;">
+            <div style="background-color: blue;height: 8%; ">
+                <h3 style="text-align: center; color: white;padding-top: 1.5%;">SELECT YOUR INDUSTRY</h3>
+            </div>
+        </div> <br> 
+
+        <div style="width: 80%; margin: auto; display: flex;">
+            <div style="width: 35%;">
+            <div style="width: 100%; background-color: blue; ">
+                <h4 style="color: white; padding-top: 3%;padding-bottom: 3%; padding-left: 5%;">Heardwere</h4>
+            </div>
+            <div style="background-color: white;padding-top: 2%;">
+                <p style="color: blue; margin-left: 5%;" >
+                    Backery & Food Manafacturing <br><br>
+                    Construction <br><br>
+                    Facilities Management & Contract cleaners <br><br>
+                    Edcction <br><br>
+                    Retail <br><br>
+                    Government & Local Autherities <br><br>
+                    Industry & Manafacturing <br><br>
+                    Warehouse & distribution <br><br>
+                    Hospitaity
+                </p>
+            </div>
+            </div>
+            <div style="width: 65%; display: flex;" class="medical">
+                <div style="width: 50%; background-color:black; opacity: 0.90;">
+                    <p style="color: white; padding-top: 12%; margin-left: 8%;">
+                        We toast to development, equality, and <br>
+                        Leadership roles that the women are playing; at home, <br>
+                         in places of work and every other . <br>
+                         Happy International Women's Day to all 
+                         brthe women who have challenged gender norms
+                         <br>
+                         <br>
+                        Waste collection and management isikuworry <br>
+                        Ice Clean care Group will arrange for waste collection <br>
+                        and disposal services at your convenience. <br>
+                        given you:
+                        <br>
+                        <br>
+                        <ul>
+                            <li style="display: block; color: white;" id="tle">Safe and clean floors</li>
+                            <li style="display: block; color: white;" id="tle">High-quality envirnment</li>
+                            <li style="display: block; color: white;" id="tle">Cost effective cleaning solutions</li>
+                        </ul>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+    <div style="width: 100%;" class="machinecompany" >
+        <div style="background-color: blue;opacity: 0.80; height: 45%; ">
+            <h2 style="color: white; text-align: center; padding-top: 6%;">
+                IRELAND'S LEADING CLEARING <br> 
+                MACHINE COMPANY
+            </h2> <br>
+            <div style="display: flex; ">
+                <div style="padding-right: 6%; margin-left: 35.5%;">
+                    <button style="color: blue; background-color: white;border-color: white; width: 160%;height: 150%; cursor: pointer;"> ABOUT ICECLEAN</button> 
+                </div>
+                <div>
+                    <button style="color: blue; background-color: white;border-color: white; width: 120%;height: 150%;cursor: pointer;"> ORDER MACHINE DEMO</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="width: 80%; margin: auto; background-color: white; display: flex; padding-bottom: 3%;">
+        <div style="width: 25%;padding-top: 6%;">
+            <h4 style="color: blue;">CONTACT US</h4> <br> <br>
+            <p style="color: blue; font-size: 17px;">
+                <i class="fa-solid fa-location-dot"></i> ICE-Industrial Cleaning <br>
+                Ecuipment <br>
+                Unit 5 Western Business Park <br>
+                Oak Close, Dublin 12 <br> <br>
+
+                <i class="fa-solid fa-phone-volume"></i> +353(0)1 4601277 <br> <br>
+
+                <i class="fa-sharp fa-solid fa-envelope"></i> vashinhits@gmail.com <br> <br> <br>
+
+                <h3 style="color: blue;">CONNECT WITH US</h3> <br>
+            </p>
+                    <ul>
+                       <li style="padding-right: 3%;"> <i id="icons" class="fa-solid fa-thumbs-up"></i> </li>
+                       <li style="padding-right: 3%;"> <i id="icons" class="fa-brands fa-twitter"></i> </li>
+                       <li style="padding-right: 3%;"> <i id="icons" class="fa-brands fa-linkedin-in"></i> </li>
+                       <li style="padding-right: 3%;"> <i id="icons" class="fa-brands fa-youtube"></i> </li>           
+                    </ul>
+        </div>
+        <div style="width: 25%; padding-top: 6%;">
+            <h4 style="color: blue;">CUSTOMER SUPPORT</h4> <br> <br>
+            <p style="color: blue; font-size: 17px;">
+                Order and Returns <br> <br>
+                View Cart <br> <br>
+                Login <br> <br>
+                Sitemap <br> <br>
+                Terms & Conditions <br> <br>
+                Privacy Policy <br> <br>
+                cookies
+            </p>
+        </div>
+        <div style="width: 25%; padding-top: 6%;">
+            <h4 style="color: blue;">OUR LINKS</h4> <br> <br>
+            <p style="color: blue; font-size: 17px;">
+                Products <br> <br>
+                Industry Sectors <br> <br>
+                Spare Parts <br> <br>
+                Cleaning Supplies <br> <br>
+                Faqs <br> <br>
+                About <br> <br>
+                Contact
+            </p>
+        </div>
+        <div style="width: 25%;">
+            <img style="width: 120px; padding-top:14%; padding-bottom: 10%;" src="New folder (3)/logo1.png" alt=""> 
+            <p style="color: blue; font-size: 17px;">
+                        We toast to development, equality, and 
+                        Leadership roles that the women are playing; at home, 
+                        in places of work and every other 
+                        Happy International Women's Day to all places of work 
+                        Leadership roles that the women
+            </p> <br> 
+            <img id="card" src="New folder (3)/card_img.png" alt=""> 
+            <h5 style="color: darkblue;">payments powered by</h5> 
+            <h2 style="color: darkblue;">WorldPay</h2>
+        </div>
+    </div>   
+</body>
+
+</html>
